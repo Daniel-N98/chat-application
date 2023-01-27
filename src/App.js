@@ -1,4 +1,5 @@
 import Navigation from "./components/Navigation";
+import RoutePaths from "./routes";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <header>
         <Navigation />
       </header>
+      <RoutePaths />
     </div>
   );
 }
