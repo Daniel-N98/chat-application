@@ -23,13 +23,13 @@ export default function Register() {
           Email
           <input type="email" />
         </label>
-        <label htmlFor="username">
-          Username
-          <input type="text" />
-        </label>
         <label htmlFor="password">
           Password
           <input type="password" autoComplete="off" />
+        </label>
+        <label htmlFor="username">
+          Username
+          <input type="text" />
         </label>
         <button type="submit" onClick={(e) => handleClick(e)}>
           Register
