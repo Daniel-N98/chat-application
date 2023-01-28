@@ -2,6 +2,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,
+  signOut,
 } from "firebase/auth";
 import { auth } from "./firebase";
 
@@ -24,6 +25,10 @@ export function registerUser(userEmail, userPassword, displayName) {
 
 export async function signInUser(userEmail, userPassword) {
   return signInWithEmailAndPassword(auth, userEmail, userPassword);
+}
+
+export async function signOutUser() {
+  signOut(auth);
 }
 
 function validateDisplayName(displayName) {
