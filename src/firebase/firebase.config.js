@@ -7,4 +7,5 @@ export const firebaseConfig = {
   storageBucket: `${process.env.REACT_APP_storageBucket}`,
   messagingSenderId: `${process.env.REACT_APP_messageSenderId}`,
   appId: `${process.env.REACT_APP_appId}`,
+  databaseURL: `${process.env.REACT_APP_databaseURL}`,
 };
