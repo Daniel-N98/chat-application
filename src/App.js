@@ -1,4 +1,4 @@
-import Navigation from "./components/Navigation";
+import Navigation from "./components/navigation/Navigation";
 import RoutePaths from "./routes";
 import "./App.css";
 import { UserContextProvider } from "./contexts/UserContext";
