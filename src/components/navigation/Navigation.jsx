@@ -8,6 +8,7 @@ export default function Navigation() {
   return (
     <nav>
       <Link to="/">Home</Link>
+      <Link to="/chat">Chat</Link>
       <Link to="/account">{user ? "Account" : "Register/Sign In"}</Link>
     </nav>
   );
