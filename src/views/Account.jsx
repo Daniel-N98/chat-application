@@ -9,7 +9,9 @@ export default function Account() {
     <section id="account-view">
       <h1>Account page</h1>
       {user ? (
-        <section id="account"></section>
+        <section id="account">
+          <p>Username: {user.displayName}</p>
+        </section>
       ) : (
         <section id="register-sign-in">
           <Register />
