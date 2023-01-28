@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Account from "../views/Account";
 import Home from "../views/Home";
 
 export default function RoutePaths() {
@@ -6,6 +7,7 @@ export default function RoutePaths() {
     <section>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/account" element={<Account />} />
       </Routes>
     </section>
   );
