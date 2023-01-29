@@ -1,10 +1,11 @@
 nav {
   display: flex;
   width: 500px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 20px auto;
 }
 
 nav *{
   color: white;
+  width: 115px;
 }
